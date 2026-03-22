@@ -1,28 +1,28 @@
 :root {
-  --background-color: #f4fbfc;
+  --background-color: #fff;
   --btn-color: #0987f2;
   --btn-text-color: #fff;
   --project-card-bg: #ffffff00;
   --text-color: #000;
   --form-text-color: #555;
   --footer-text-color: #888;
-  --nav-bg: #dceff2;
-  --nav-border: #c6dde1;
+  --nav-bg: #fff;
+  --nav-border: #d9d9d9;
   --nav-brand: #112b32;
-  --nav-link: #1b3840;
+  --nav-link: #19191a;
   --nav-link-hover: #006e85;
 }
 
 [data-theme='dark'] {
-  --background-color: #000d10;
+  --background-color: #000D10;
   --btn-color: #fff;
   --btn-text-color: #222;
-  --project-card-bg: #0e2127;
+  --project-card-bg: #000D10;
   --text-color: #fff;
   --form-text-color: #fff;
   --footer-text-color: #bbb;
-  --nav-bg: #001319;
-  --nav-border: #0d2a33;
+  --nav-bg: #000D10;
+  --nav-border: #223038;
   --nav-brand: #f2fbfd;
   --nav-link: #d4e6ea;
   --nav-link-hover: #7ed5e8;
@@ -37,8 +37,12 @@ body {
 #root {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 0;
   width: 100%;
+}
+
+#root > section:not(#hero) {
+  margin-top: 60px;
 }
 
 html {
@@ -93,8 +97,8 @@ p {
 }
 
 @media (width >= 800px) {
-  #root {
-    gap: 100px;
+  #root > section:not(#hero) {
+    margin-top: 100px;
   }
   h1 {
     font-size: 40px;
@@ -112,8 +116,8 @@ p {
   }
 
   @media (width >= 1400px) {
-    #root {
-      gap: 200px;
+    #root > section:not(#hero) {
+      margin-top: 200px;
     }
     h1 {
       font-size: 48px;

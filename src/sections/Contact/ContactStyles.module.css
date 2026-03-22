@@ -148,7 +148,7 @@
 :global([data-theme='dark']) .infoCard,
 :global([data-theme='dark']) .formCard {
   border-color: #20353d;
-  background: #081820;
+  background: #000D10;
 }
 
 :global([data-theme='dark']) .infoCard p {
@@ -157,7 +157,7 @@
 
 :global([data-theme='dark']) .formCard input,
 :global([data-theme='dark']) .formCard textarea {
-  background: #17262e;
+  background: #000D10;
   color: #d6e6ec;
 }
 
@@ -168,7 +168,8 @@
 
 :global([data-theme='dark']) .submitBtn {
   color: #e7eef4;
-  background: #1a2e38;
+  background: #000D10;
+  border: 1px solid #223038;
 }
 
 @media (width >= 920px) {

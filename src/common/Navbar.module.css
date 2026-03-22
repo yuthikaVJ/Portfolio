@@ -93,3 +93,12 @@
     font-size: 14px;
   }
 }
+
+:global([data-theme='dark']) .header {
+  background: #000D10;
+  backdrop-filter: none;
+}
+
+:global([data-theme='dark']) .themeToggle {
+  background: #000D10;
+}

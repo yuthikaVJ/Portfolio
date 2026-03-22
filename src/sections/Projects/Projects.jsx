@@ -17,13 +17,23 @@ function Projects() {
                 />
                 <ProjectCard src={burger}
                 link = 'https://github.com/Realsteelxx'
-                h3 = 'Fresh Burger'
+                h3 = 'Sumana Construction'
                 p = 'Hamburger Resturant'
                 />
                 <ProjectCard src={hipsster}
                 link = 'https://github.com/Realsteelxx'
-                h3 = ' Hipsster'
+                h3 = ' Happy Baby Books'
                 p = 'Glasses Shop'
+                />
+                <ProjectCard src={fitlift}
+                link = 'https://github.com/Realsteelxx'
+                h3 = ' FitLift'
+                p = 'Fitness APP'
+                />
+                <ProjectCard src={fitlift}
+                link = 'https://github.com/Realsteelxx'
+                h3 = ' FitLift'
+                p = 'Fitness APP'
                 />
                 <ProjectCard src={fitlift}
                 link = 'https://github.com/Realsteelxx'
