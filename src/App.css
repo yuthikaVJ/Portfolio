@@ -1,27 +1,36 @@
 :root {
-  --background-color: #fff;
+  --background-color: #f4fbfc;
   --btn-color: #0987f2;
   --btn-text-color: #fff;
   --project-card-bg: #ffffff00;
-  --text-color: #222;
+  --text-color: #000;
   --form-text-color: #555;
   --footer-text-color: #888;
+  --nav-bg: #dceff2;
+  --nav-border: #c6dde1;
+  --nav-brand: #112b32;
+  --nav-link: #1b3840;
+  --nav-link-hover: #006e85;
 }
 
 [data-theme='dark'] {
-  --background-color: #222;
+  --background-color: #000d10;
   --btn-color: #fff;
   --btn-text-color: #222;
-  --project-card-bg: #fff;
+  --project-card-bg: #0e2127;
   --text-color: #fff;
   --form-text-color: #fff;
   --footer-text-color: #bbb;
+  --nav-bg: #001319;
+  --nav-border: #0d2a33;
+  --nav-brand: #f2fbfd;
+  --nav-link: #d4e6ea;
+  --nav-link-hover: #7ed5e8;
 }
 
 body {
   background-color: var(--background-color);
-  display: flex;
-  justify-content: center;
+  display: block;
   margin: 0 auto 60px;
 }
 
@@ -29,6 +38,15 @@ body {
   display: flex;
   flex-direction: column;
   gap: 60px;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 90px;
 }
 
 h1,
