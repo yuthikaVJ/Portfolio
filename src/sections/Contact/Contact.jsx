@@ -5,10 +5,10 @@ function Contact() {
   return (
     <section id="contact" className={styles.container}>
       <h1 className={styles.title}>Let&apos;s Connect</h1>
-      <p className={styles.subtitle}>
+      {/* <p className={styles.subtitle}>
         Ready to bring your next project to life? Let&apos;s discuss how my expertise in full-stack
         development and AI agent development can help achieve your goals.
-      </p>
+      </p> */}
 
       <div className={styles.layout}>
         <div className={styles.infoColumn}>
