@@ -5,6 +5,8 @@ import Footer from './sections/Footer/Footer';
 import Hero from './sections/Hero/Hero';
 import Projects from './sections/Projects/Projects';
 import Skills from './sections/Skills/Skills';
+import Experience from './sections/Experience/Experience';
+import Education from './sections/Education/Education';
 import Navbar from './common/Navbar';
 
 
@@ -23,6 +25,8 @@ function App() {
       <Hero/>
       <Projects/>
       <Skills/>
+      <Experience/>
+      <Education/>
       <Contact/>
       <Footer/>
      
