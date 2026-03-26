@@ -22,24 +22,24 @@ function Experience() {
       ],
       technologies: ['React', 'React Native', 'Node.js', 'PostgreSQL', 'TypeScript', 'Python', 'FastAPI', 'Fastify', 'Docker', 'Git', 'GitHub'],
     },
-    {
-      id: 2,
-      position: 'Full Stack Developer',
-      company: 'Tech Innovations Ltd',
-      period: 'Jan 2023 - May 2024',
-      location: 'Remote',
-      type: ['Remote', 'Full-time'],
-      icon: FaCode,
-      description: [
-        'Developed and deployed full-stack web applications using React and Node.js, serving thousands of users worldwide.',
-        'Optimized database queries and implemented caching strategies, reducing API response time by 60%.',
-        'Collaborated with UX/UI designers to implement responsive and accessible user interfaces.',
-        'Conducted code reviews and provided mentorship to junior developers on best practices and design patterns.',
-        'Implemented comprehensive unit and integration tests, achieving 85% code coverage.',
-        'Managed CI/CD pipelines using GitHub Actions and Docker, ensuring smooth deployment workflows.',
-      ],
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express.js', 'TypeScript', 'Docker', 'GitHub Actions', 'Jest', 'Webpack'],
-    },
+    // {
+    //   id: 2,
+    //   position: 'Full Stack Developer',
+    //   company: 'Tech Innovations Ltd',
+    //   period: 'Jan 2023 - May 2024',
+    //   location: 'Remote',
+    //   type: ['Remote', 'Full-time'],
+    //   icon: FaCode,
+    //   description: [
+    //     'Developed and deployed full-stack web applications using React and Node.js, serving thousands of users worldwide.',
+    //     'Optimized database queries and implemented caching strategies, reducing API response time by 60%.',
+    //     'Collaborated with UX/UI designers to implement responsive and accessible user interfaces.',
+    //     'Conducted code reviews and provided mentorship to junior developers on best practices and design patterns.',
+    //     'Implemented comprehensive unit and integration tests, achieving 85% code coverage.',
+    //     'Managed CI/CD pipelines using GitHub Actions and Docker, ensuring smooth deployment workflows.',
+    //   ],
+    //   technologies: ['React', 'Node.js', 'MongoDB', 'Express.js', 'TypeScript', 'Docker', 'GitHub Actions', 'Jest', 'Webpack'],
+    // },
   ];
 
   return (

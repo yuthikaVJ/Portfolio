@@ -3,6 +3,7 @@ import viberr from '../../assets/viberr.png';
 import burger from '../../assets/fresh-burger.png';
 import hipsster from '../../assets/hipsster.png';
 import  fitlift from '../../assets/fitlift.png';
+import github from '../../assets/github-logo.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -16,12 +17,12 @@ function Projects() {
                 p = 'Web Site'
                 />
                 <ProjectCard src={burger}
-                link = 'https://github.com/Realsteelxx'
+                link = 'https://sumanaconstruction.com/'
                 h3 = 'Sumana Construction'
                 p = 'Hamburger Resturant'
                 />
                 <ProjectCard src={hipsster}
-                link = 'https://github.com/Realsteelxx'
+                link = 'https://happybabybooks.lk/'
                 h3 = ' Happy Baby Books'
                 p = 'Glasses Shop'
                 />
@@ -30,16 +31,12 @@ function Projects() {
                 h3 = ' FitLift'
                 p = 'Fitness APP'
                 />
-                <ProjectCard src={fitlift}
+                <ProjectCard src={github}
                 link = 'https://github.com/Realsteelxx'
-                h3 = ' FitLift'
-                p = 'Fitness APP'
+                h3 = ' GitHub'
+                p = 'All My Projects'
                 />
-                <ProjectCard src={fitlift}
-                link = 'https://github.com/Realsteelxx'
-                h3 = ' FitLift'
-                p = 'Fitness APP'
-                />
+               
 
             </div>
         </section>

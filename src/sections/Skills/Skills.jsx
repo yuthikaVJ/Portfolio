@@ -66,16 +66,16 @@ const skillGroups = [
     icon: LuCloud,
     skills: ['AWS'],
   },
-  {
-    title: 'AI Frameworks & Tools',
-    icon: LuBrain,
-    skills: ['LangChain & LangGraph', 'OpenAI', 'Anthropic', 'Gemini', 'Ollama', 'Jupyter Notebook'],
-  },
-  {
-    title: 'DevOps & Tools',
-    icon: LuSettings,
-    skills: ['Docker', 'Jenkins', 'Git', 'GitHub', 'Cursor', 'VS Code', 'Postman'],
-  },
+  // {
+  //   title: 'AI Frameworks & Tools',
+  //   icon: LuBrain,
+  //   skills: ['LangChain & LangGraph', 'OpenAI', 'Anthropic', 'Gemini', 'Ollama', 'Jupyter Notebook'],
+  // },
+  // {
+  //   title: 'DevOps & Tools',
+  //   icon: LuSettings,
+  //   skills: ['Docker', 'Jenkins', 'Git', 'GitHub', 'Cursor', 'VS Code', 'Postman'],
+  // },
    {
     title: 'Version Control ',
     icon: LuSettings,
