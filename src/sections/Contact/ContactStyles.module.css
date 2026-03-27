@@ -9,10 +9,10 @@
 
 .title {
   text-transform: none;
-  font-size: clamp(40px, 6vw, 62px);
+  font-size: clamp(28px, 4vw, 44px);
   letter-spacing: -0.5px;
   color: var(--text-color);
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 
 .subtitle {
@@ -27,35 +27,35 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 26px;
+  gap: 18px;
 }
 
 .infoColumn {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 14px;
 }
 
 .infoCard {
   border: 1px solid color-mix(in srgb, var(--text-color) 12%, transparent);
   background: color-mix(in srgb, var(--background-color) 94%, #f4f5fa 6%);
   border-radius: 18px;
-  padding: 18px;
+  padding: 14px;
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   text-align: left;
 }
 
 .infoIcon {
-  font-size: 24px;
+  font-size: 20px;
   color: color-mix(in srgb, var(--text-color) 82%, #1f2a44 18%);
   flex-shrink: 0;
 }
 
 .infoCard h2 {
   margin: 0;
-  font-size: 32px;
+  font-size: 22px;
   text-transform: none;
   font-family: 'Rubik', sans-serif;
   color: var(--text-color);
@@ -64,17 +64,17 @@
 .infoCard p {
   margin-top: 6px;
   color: color-mix(in srgb, var(--text-color) 60%, #7f8da6 40%);
-  font-size: 31px;
+  font-size: 18px;
 }
 
 .formCard {
   border: 1px solid color-mix(in srgb, var(--text-color) 12%, transparent);
   background: color-mix(in srgb, var(--background-color) 94%, #f4f5fa 6%);
   border-radius: 18px;
-  padding: 24px;
+  padding: 18px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 12px;
   text-align: left;
 }
 
@@ -82,7 +82,7 @@
   margin: 0 0 8px;
   text-transform: none;
   font-family: 'Rubik', sans-serif;
-  font-size: 34px;
+  font-size: 24px;
   color: var(--text-color);
 }
 
@@ -100,11 +100,11 @@
 }
 
 .formCard input {
-  height: 46px;
+  height: 40px;
 }
 
 .formCard textarea {
-  height: 190px;
+  height: 140px;
   resize: none;
   padding-top: 12px;
 }
@@ -118,16 +118,16 @@
   border: none;
   border-radius: 10px;
   margin-top: 4px;
-  height: 42px;
+  height: 38px;
   font-family: 'Rubik', sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 600;
   color: #0f1725;
   background: #d8dbe2;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 6px;
   cursor: pointer;
   transition: transform 180ms ease, filter 180ms ease;
 }

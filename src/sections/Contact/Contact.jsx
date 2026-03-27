@@ -16,7 +16,7 @@ function Contact() {
             <LuMail className={styles.infoIcon} aria-hidden="true" />
             <div>
               <h2>Email</h2>
-              <p>yuthikaviduranga@gmail.com</p>
+              <p>yuthikavj@gmail.com</p>
             </div>
           </article>
 
