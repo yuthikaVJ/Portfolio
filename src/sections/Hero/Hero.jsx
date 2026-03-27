@@ -10,7 +10,7 @@ function Hero() {
         <p className={styles.locationBadge}>Working from Gampha, Sri Lanka</p>
 
         <h1 className={styles.name}>Yuthika Viduranga</h1>
-        <h2 className={styles.role}>DevOps Engineer</h2>
+        <h2 className={styles.role}>DevOps/Backend  Engineer</h2>
 
         {/* <p className={styles.summary}>
           Senior software engineer with 5+ years of experience delivering scalable

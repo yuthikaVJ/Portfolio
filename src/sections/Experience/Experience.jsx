@@ -5,11 +5,10 @@ function Experience() {
   const experienceData = [
     {
       id: 1,
-      position: 'Senior Software Engineer',
-      company: 'WireApps',
-      period: 'June 2024 - Present',
-      location: 'Bowdon, Altrincham, England',
-      type: ['Remote', 'Present'],
+      position: 'DevOps & Backend Engineer',
+      company: 'NexaWeb IT Solutions ',
+      period: '2024 - Present',
+      location: 'Colombo, Sri Lanka',
       icon: FaBriefcase,
       description: [
         'Leading development of the Ferry AI service, automating customer support workflows and internal operational processes using AI-driven solutions.',
@@ -64,13 +63,6 @@ function Experience() {
                   <div className={styles.metadata}>
                     <p className={styles.period}>📅 {exp.period}</p>
                     <p className={styles.location}>📍 {exp.location}</p>
-                  </div>
-                  <div className={styles.badges}>
-                    {exp.type.map((t, idx) => (
-                      <span key={idx} className={styles.badge}>
-                        {t}
-                      </span>
-                    ))}
                   </div>
                 </div>
               </div>

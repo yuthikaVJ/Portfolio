@@ -15,10 +15,10 @@ function Education() {
     },
     {
       id: 2,
-      degree: 'Bachelor of Science - BSC (Computer Science)',
-      institution: 'ISA College, Mathura',
-      period: 'Sept 2018 - Aug 2021',
-      grade: '73.2%',
+      degree: 'Advance Level - A/L/Ordinary Level - O/L',
+      institution: 'Bandaranayake College, Gampaha',
+      period: '2013 - 2021',
+      // grade: '73.2%',
       description:
         'I completed my Bachelor\'s degree in Computer Science (B.Sc.) from ISA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to Web Development and Software Engineering, I was exposed to a comprehensive curriculum. These foundational years were crucial in my academic journey and helped me develop a strong passion for technology and problem-solving.',
       icon: SiReact,

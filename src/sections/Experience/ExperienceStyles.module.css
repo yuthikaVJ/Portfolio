@@ -194,6 +194,10 @@
   border-color: color-mix(in srgb, #00d4ff 55%, transparent);
 }
 
+:global([data-theme='light']) .experienceCard {
+  background: #ffffff;
+}
+
 /* Responsive Design */
 @media (max-width: 900px) {
   .cardHeader {
