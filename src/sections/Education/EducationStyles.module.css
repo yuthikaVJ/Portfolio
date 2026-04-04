@@ -87,20 +87,19 @@
 }
 
 .card {
-  background: color-mix(in srgb, var(--background-color) 82%, #001f2f 18%);
-  border: 1px solid color-mix(in srgb, var(--text-color) 22%, transparent);
+  background: linear-gradient(135deg, #edf0f2 0%, #ffffff 100%);
+  border: 1px solid #d8dee3;
   border-radius: 18px;
   padding: 24px;
   text-align: left;
-  box-shadow: 0 0 0 1px rgba(0, 212, 255, 0.04) inset;
+  box-shadow: none;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
 .card:hover {
-  border-color: color-mix(in srgb, var(--text-color) 35%, transparent);
-  box-shadow: 0 0 0 1px rgba(0, 212, 255, 0.1) inset,
-    0 4px 12px rgba(0, 212, 255, 0.08);
+  border-color: #cfd6dc;
+  box-shadow: none;
 }
 
 .cardHeader {

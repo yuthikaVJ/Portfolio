@@ -5,10 +5,10 @@ function Education() {
   const educationData = [
     {
       id: 1,
-      degree: 'Master of Computer Applications - MCA',
-      institution: 'GLA University, Mathura',
-      period: 'Sept 2022 - July 2024',
-      grade: '7.81 CGPA',
+      degree: 'Bsc(hons) information technology specializing in software engineering',
+      institution: 'SLIIT',
+      period: ' July 2024 - Present',
+      grade: '3.67 CGPA',
       description:
         'I have completed my Master\'s degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.',
       icon: SiGooglecloud,
@@ -18,7 +18,7 @@ function Education() {
       degree: 'Advance Level - A/L/Ordinary Level - O/L',
       institution: 'Bandaranayake College, Gampaha',
       period: '2013 - 2021',
-      // grade: '73.2%',
+      grade: '73.2%',
       description:
         'I completed my Bachelor\'s degree in Computer Science (B.Sc.) from ISA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to Web Development and Software Engineering, I was exposed to a comprehensive curriculum. These foundational years were crucial in my academic journey and helped me develop a strong passion for technology and problem-solving.',
       icon: SiReact,
@@ -50,7 +50,6 @@ function Education() {
                   <div className={styles.cardBody}>
                     <p className={styles.period}>{edu.period}</p>
                     <p className={styles.grade}>Grade: {edu.grade}</p>
-                    <p className={styles.description}>{edu.description}</p>
                   </div>
                 </div>
               </div>
